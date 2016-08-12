@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#00099C"
+    android:padding="@dimen/widget_padding">
+
+    <Button
+        android:id="@+id/btPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="&lt;"/>
+    <TextView
+        android:id="@+id/tvSite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000"
+        android:shadowRadius="5"
+        android:text="Navegue nos favoritos"/>
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="&gt;"/>
+
+</LinearLayout>
